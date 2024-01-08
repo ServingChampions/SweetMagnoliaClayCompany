@@ -110,23 +110,7 @@ p{
   padding: 5px 0;
 }
 
-  /******************************************
-  /* Buttons
-  /*******************************************/
-.btn {
-  border-radius: 5px;
-  color: rgb(16, 0, 117);
-  cursor: ;
-  font-weight: 400;
-  letter-spacing: .5px;
-  text-transform: uppercase;
-  padding: 10px;
-  }
-
-  .btn-alt:hover {
-    background: rgb(255, 255, 255);
-    color: #960000;
-  }
+  
 
     /******************************************
   /* Index
@@ -157,238 +141,84 @@ p{
   vertical-align: top;
 }
 
-.btn-home{
-  display: flex;
-  justify-content: space-around;
-}
+  /*/
+  Buttons
+  /*/
 
-.bio p{
-  display: flex;
-  justify-content: flex-start;
-  justify-items: auto;
-  align-content: flex-start;
-  align-items: center;
-}
+  .facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .facebook img {
+    max-width: 50%;
+    height: auto;
+    max-height: 75px; /* Adjust the max-height as needed */
+    margin: 0 auto; /* Center horizontally */
+  }
 
-.headshot{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 0;
-}
+  .button-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px; /* Adjust margin as needed */
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db; /* Adjust background color as needed */
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #2980b9; /* Adjust hover background color as needed */
+  }
+
 
 
     /******************************************
   /* Gallery
   /*******************************************/
 
-  .gallery1{
+  .gallery-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .event-gallery {
+    margin-top: 20px;
+    padding: 25px;
+  }
+  
+  .image-container {
     display: flex;
-    justify-content: center;
-    height: 200px;
-    width: 50%;
+    justify-content: space-between;
+  }
+  
+  .event-gallery img {
+    max-width: 48%; /* Adjust the width as needed */
+    height: auto;
   }
 
 
-.portintro h1{
-  text-transform: capitalize;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0;
-}
+  /******************************************
+  /* Inventory
+  /*******************************************/
 
-.porthead h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- padding-top: 10px;
-}
-
-.education h3{
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.education a{
-  display: flex;
-  justify-content: flex-start;
-}
-
-.education section{
-  display: flex;
-	margin: 0 auto;
-  flex-direction: row;
-	padding-bottom: 30px;
-	width: 960px;
-}
-.education div{
-  display: flex;
-  flex-direction: column;
-}
-.education #mem{
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  justify-content: flex-start;
-  padding-bottom: 40px;
-  margin-left: 30%;
-}
-
-.education #reb{
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  justify-content: flex-start;
-  margin-left: 30%;
-}
-
-
-.portbtn {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  border-radius: 50px;
-  color: black;
-  font-weight: 600;
-  letter-spacing: .8px;
-  text-transform: uppercase;
-  padding: 20px;
-  }
-
-
-  .portbtn:hover {
-    color: #ff0000;
-    text: blue;
-  }
-
-  .experience h3{
+  .inventoryintro{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-    border-bottom: 2px solid black;
+    margin: 25px 0;
   }
-  
-  .experience{
-    padding: 20px 0;
-  }
-
-  .experience h4 {
-    font-weight: 450;
-    padding-top: 25px;
-  }
-
-  .experience h5{
-    padding-bottom: 5px;
-  }
-
-  table {
-    border: 2px solid darkgreen; 
-    border-spacing:10px; 
-    margin: 0 auto;
-  }
-  
-  th, td {
-    border: 1px solid darkgrey; 
-  } 
-  
-  td {
-    text-align: center;
-  }
-
-.publications h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.publications div{
-  margin-left: 25%;
-}
-
-.publications img{
-  width: 10%;
-}
-
-.publications h4{
-  padding-bottom: 100px;
-  margin-bottom: 0px;
-}
-
-.projects h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.projects img{
-  width: 20%;
-}
-.tracker img{
-  width: 20%;
-}
-.twitter img{
-  width: 20%;
-}
-.tableau img{
-  width: 20%;
-}
-
-a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 5px;
-}
-
-.certifications h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 30px;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.certifications p{
-margin-left: 35%;
-}
-
-.projects p{
-  display:contents;
-}
-.campaignmat p{
-  display: contents;
-}
-
-.campaignmat img{
-  display: flex;
-  flex-direction: column;
-}
-
-.tracker p{
-  display: contents;
-}
-.twitter p{
-  display: contents;
-}
-.tableau p{
-  display: contents;
-}
-#smallintro{
-  display: none;
- }
 
 
 
