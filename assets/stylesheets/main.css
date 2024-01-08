@@ -141,6 +141,14 @@ p{
   vertical-align: top;
 }
 
+.quote{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b30000;
+  padding: 10px 0;
+}
+
   /*/
   Buttons
   /*/
@@ -333,18 +341,7 @@ Header & Footer
   padding-bottom: 15px;
 }
 
-.socmed{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.socmed img {
-  padding: 10px;
-  height: 50px;
-  margin: 22px 0 22px 0;
-  vertical-align: top;
-}
 
 
 /* 
@@ -457,7 +454,21 @@ Index
   vertical-align: top;
 }
 
+.quote{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #b30000;
+  padding: 10px 0;
+}
 
+.quote h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b30000;
+  padding: 10px 0;
+}
 
 
 
