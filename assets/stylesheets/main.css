@@ -390,20 +390,43 @@ p{
 /* 
 Buttons
 */
-.btn {
-  border-radius: 5px;
-  color: rgb(16, 0, 117);
-  cursor: crosshair;
-  font-weight: 400;
-  letter-spacing: .5px;
-  text-transform: uppercase;
-  padding: 10px;
-  }
 
-  .btn-alt:hover {
-    background: rgb(255, 255, 255);
-    color: #960000;
-  }
+
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.facebook img {
+  max-width: 50%;
+  height: auto;
+  max-height: 75px; /* Adjust the max-height as needed */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px; /* Adjust margin as needed */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db; /* Adjust background color as needed */
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #2980b9; /* Adjust hover background color as needed */
+}
+
 
 /* 
 Index
@@ -434,189 +457,9 @@ Index
   vertical-align: top;
 }
 
-.btn-home{
-  display: flex;
-  justify-content: space-around;
-}
-
-.bio p{
-  display: flex;
-  justify-content: flex-start;
-  justify-items: auto;
-  align-content: flex-start;
-  align-items: center;
-}
-
-.headshot{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 0;
-}
-
-/* 
-Portfolio
-*/
-.portintro h1{
-  text-transform: capitalize;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0;
-}
-
-.porthead h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- padding-top: 10px;
-}
-
-.education h3{
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.education section{
-  display: flex;
-	margin: 0 auto;
-  flex-direction: row;
-	padding-bottom: 30px;
-	width: 960px;
-}
-.education div{
-  display: flex;
-  flex-direction: column;
-}
-.education #mem{
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  justify-content: center;
-  padding-bottom: 20px;
-  margin-left: 0%;
-}
-
-.education #reb{
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  justify-content: center;
-  margin-left: 0%;
-}
 
 
-.portbtn {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  border-radius: 50px;
-  color: black;
-  font-weight: 600;
-  letter-spacing: .8px;
-  text-transform: uppercase;
-  padding: 15px 20px;
-  }
 
-
-  .portbtn:hover {
-    color: #;
-    text: ;
-  }
-
-  .experience h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    border-bottom: 2px solid black;
-  }
-  
-  .experience{
-    padding: 20px 0;
-  }
-
-  .experience h4 {
-    font-weight: 450;
-    padding-top: 25px;
-  }
-
-  .experience h5{
-    padding-bottom: 5px;
-  }
-
-  table {
-    border: 2px solid ; 
-    border-spacing:10px; 
-    margin: 0 auto;
-  }
-  
-  th, td {
-    border: 1px solid ; 
-  } 
-  
-  td {
-    text-align: center;
-  }
-
-.publications h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.publications h4{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 15px;
-}
-
-.publications div{
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.publications a{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.publications img{
-  width: 45%;
-}
-
-.projects h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
-
-.projects img{
-  width: 50%;
-}
-.tracker img{
-  width: 50%;
-}
-.twitter img{
-  width: 50%;
-}
-.tableau img{
-  width: 50%;
-}
 
 a {
   display: flex;
@@ -625,38 +468,7 @@ a {
   padding-bottom: 5px;
 }
 
-.certifications h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10px;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-}
 
-.certifications p{
-  margin-left: 0%;
-  }
-
-.projects p{
-  display: none;
-}
-.campaignmat p{
-  display: none;
-}
-.tracker p{
-  display: none;
-}
-.twitter p{
-  display: none;
-}
-.tableau p{
-  display: none;
-}
-#smallintro{
-  display: flex;
- }
 
 /* 
 Connect
